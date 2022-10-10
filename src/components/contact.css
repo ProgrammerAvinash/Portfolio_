@@ -1,0 +1,17 @@
+ a:hover{
+    color:whitesmoke;
+    background-color: #D80286;
+}
+.noHover{
+    pointer-events: none;
+    Cursor:text !important; Text-Decoration: None !important; 
+}
+
+.contact-body{
+    margin-top: 80px;
+}
+
+.translate_social:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s;
+  }

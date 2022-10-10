@@ -1,0 +1,105 @@
+.blog h4::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.blog h4:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.blog h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #d80286;
+  opacity: 0.2;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.blog h4 {
+  position: relative;
+  font-size: 2rem;
+}
+
+/* html {
+    block-size: 100%;
+    inline-size: 100%;
+  } */
+/*   
+  body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+  } */
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+a:hover {
+  background-color: black;
+}
+
+.blog h4 {
+  margin: 10px;
+  margin-left: px;
+  color: black;
+  padding: 25px;
+}
+
+.blogSocial-Links {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+i:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff6600;
+}
+
+.blogSocial-Links i {
+  font-size: 3.5em;
+  padding: 8px;
+}
+i:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+.blogHoverColor {
+  background: #3fada8;
+  border-radius: 10px;
+  margin: 1rem;
+  color: white;
+}
+
+.blogFooter {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  flex-direction: column-reverse;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 38%;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,146 @@
+body {
+  background-color: white;
+  z-index: 0;
+}
+
+.intro_name {
+  font-size: 30px;
+  color: rgb(3, 104, 255);
+}
+
+.glow_bannerText:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 6px #d80286;
+}
+
+.glow_bannerText:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #d80286;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+
+  background: -webkit-linear-gradient(#3fada8, #4f4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 56px;
+  color: #3fada8;
+  text-align: center;
+}
+
+.banner-text a {
+  color: white;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.hoverColor:hover {
+  /* box-shadow: inset 0 0 0 50px #D80286; */
+  color: whitesmoke;
+}
+
+/* LandingPage Navbar css */
+.Navbar {
+  color: #fff;
+  /* border: 2px solid rgb(216, 2, 134); */
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #d80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.Navbar:hover {
+  box-shadow: inset 0 0 0 50px #d80286;
+  color: white;
+  transform: translateY(1px);
+  transition: all 0.3s;
+}
+.translate_social:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+a {
+  /* position: relative;  */
+  /* display: block; */
+  /* width: 10px; */
+  /* height: 60px; */
+  /* text-align: center; */
+  /* line-height: 6px; */
+  /* background: #333; */
+  /* border-radius: 50%; */
+  /* font-size: 30px; */
+  /* color: #666; */
+  transition: 0.5s;
+}
+
+a::before {
+  /* content: ''; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* border-radius: 50%; */
+  background: #ffee10;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 6px #ffee10;
+}
+
+.Social-Links {
+  margin-top: 0;
+}
+
+.banner-text {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text p {
+  margin-bottom: 0;
+}
+
+a:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+.neu img {
+  width: 100%;
+}

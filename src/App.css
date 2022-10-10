@@ -1,0 +1,151 @@
+.resume{
+  margin-top: 80px;
+}
+.margin_top{
+  margin-top: 80px;
+}
+.bg_color{
+  background-color:white ;
+}
+.fixed_Position{
+  position: fixed;
+}
+Drawer{
+  position: fixed;
+}
+
+.demo-big-content {
+  background-image: "https://lh3.googleusercontent.com/PoPneWH5g4SQKetQTWyzSmRNOG08siL4I1hBY5oQDSIyFdySeByC2O74oIvqXzHkVL3_d7YzINSauuXz7KpUawRxUM3gn05BuzQz7QiYQ1L4UtXdyu4jER36V66bL6JMirFmskQP0jWgpKUCpGVOPZZ-idLQJo0_4gajhcFcCK0pXHP1EUnTYjBGUiy93GlUhp3Gzz40eDgiGu1Q80KWhiHWN1zIy3Btp_mZlks2rHtV4rOBi0j7BDSijQpjVfLAf1hQT9dn0o4rIHlmd5dF_mEGF2oYHG7kf9JJCOk0xYPGDx4EX4DZ-XD0RTJdiIfBymmMxsTZFiMCzMYlS-7rfzlKI4mlER_Nlb7TQiULalHwtN-tUYapsPj3c1cCOcXXbwVVwm5NcFSxN_5If0fPPbwGQkq0dEDkcywif8UG5Ndq3Dma4_A1WrD_HtF8jyRNeeEHHHNZaoBmMMVQmKjlpCFrMbob80OaEVUcVaY20iSlqxLY9Mk5eafY86Cs_Mol8tH0TY0-RZVtWUwDQqyef42QuPnEGf2jhuriFrgcrYqpeiIiaz1YEB4KkXjIuY76j2_f0mQnIkwauULHG7a4-DNc_ZlvM81dPO9HgFCPKw5nZs6BJbveaMmHh2th4kVyWGQjLjppMDyQjYHFZprTS-7JsyMb9aPRrxmecSLhPhUqcyMt8m5mxkG7zaB1nqlVe75s-nHUApNS9veIBhh5h1IA=w541-h180-no?authuser=0";
+}
+
+.header-color {
+  position: fixed;
+  /* opacity: 0.5; */
+  background: #808080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3fada8,
+    #808080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3fada8,
+    #808080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.neu {
+  margin: 80px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 3px 3px 15px #ffffff, -3px -3px 15px #000000;
+  border-radius: 20%;
+}
+
+.neu img {
+  padding: 10%;
+  border-radius: 25%;
+  flex: auto;
+}
+
+
+.Social-Links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  flex-direction: inherit;
+}
+
+.Social-Links i {
+  color: white;
+  font-size: 3.5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  /* flex-direction: column; */
+}
+.card-css {
+  margin: auto;
+  padding: 10px;
+  background: black;
+}
+
+/* contact-page css*/
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  color: #000000;
+  overflow: scroll;
+}
+.contact-body a {
+  color: #000000;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 555px;
+  background: white;
+  color: black;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+  align-content: center;
+}
+
+.contact-grid img {
+  border-radius: 250px;
+  border-image: fill;
+}
+
+.contact-list i {
+  font-size: 46px;
+  padding-right: 1rem;
+}
+
+/* contact-page css*/
+
+/* Resume Page Css*/
+.resume-right-col {
+  background: #27221f;
+  color: #ffffff;
+}
+
+/* Resume Page Css*/
