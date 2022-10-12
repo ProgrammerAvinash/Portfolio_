@@ -708,7 +708,7 @@ class projects extends Component {
                     "url(https://i.ibb.co/D8XHn1X/Screenshot-38.png) center / cover",
                 }}
               >
-                Capital Quiz #14
+                Capital Quiz #16
               </CardTitle>
               <CardText style={{ height: "60px" }}>
                 CLI App to play Game of Quiz
