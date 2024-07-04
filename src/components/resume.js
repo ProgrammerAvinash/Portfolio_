@@ -20,14 +20,14 @@ class resume extends Component {
             <h2 style={{ paddingTop: "2em" }}> Avinash Yadav </h2>
             <h4 style={{ color: "grey" }}> Programmer </h4>
             <hr style={{ borderTop: "5px solid #833fb2", width: "50%" }} />
-            <p> I am 24 Years old , Lives in Mumbai,India </p>
+            <p> I am 26 Years old , Lives in Mumbai,India </p>
             <hr style={{ borderTop: "5px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
             <p> Mumbai,India </p>
             <h5>Mobile</h5>
             <p>+91 - 8421113903</p>
             <h5>Email Id</h5>
-            <p>Avinash.yadav3043@gmail.com</p>
+            <p>Avinashyadav.sde@gmail.com</p>
             <h5>Website</h5>
             <p>avinashyadav@netlify.com</p>
           </Cell>
@@ -50,10 +50,12 @@ class resume extends Component {
 
             <Experience
               startYear={2019}
-              endYear={"current"}
-              jobName="Tata Cosultancy Services"
-              jobDescription="Working as a Software Developer"
+              endYear={"2021"}
+              jobName="Tata Consultancy Services"
+              jobDescription="Worked as a Frontend Developer in TCS Ion Project"
+
             />
+                
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <Skills skill="HTML/CSS" progress={75} />
